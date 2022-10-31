@@ -7,18 +7,19 @@
   justify-content: space-between;
   align-items: center;
   background-color: #fdf2e9;
+
   /* Because we want header to be sticky later */
   height: 9.6rem;
   padding: 0 4.8rem;
 }
 
-/*******************************/
-/* NAVIGATION */
-/*******************************/
-
 .logo {
   height: 2.2rem;
 }
+
+/*******************************/
+/* NAVIGATION */
+/*******************************/
 
 .main-nav-list {
   list-style: none;
@@ -71,6 +72,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 9.6rem;
+  align-items: center;
 }
 
 .hero-description {
@@ -88,6 +90,7 @@
   margin-top: 8rem;
   align-items: center;
   gap: 1.6rem;
+  margin-top: 8rem;
 }
 
 .delivered-imgs {
@@ -154,7 +157,7 @@
 }
 
 .step-number {
-  font-size: 9.6rem;
+  font-size: 8.6rem;
   font-weight: 600;
   color: #ddd;
   margin-bottom: 1.2rem;
@@ -213,6 +216,48 @@
   padding: 9.6rem 0;
 }
 
+.meal {
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+  border-radius: 11px;
+  overflow: hidden;
+  transition: all 0.4s;
+}
+
+.meal:hover {
+  transform: translateY(-1.2rem);
+  box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
+}
+
+.meal-content {
+  padding: 3.2rem 4.8rem 4.8rem 4.8rem;
+}
+
+.meal-tags {
+  margin-bottom: 1.2rem;
+  display: flex;
+  gap: 0.4rem;
+}
+
+.tag {
+  display: inline-block;
+  padding: 0.4rem 0.8rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  border-radius: 100px;
+  color: #333;
+  font-weight: 600;
+}
+
+.tag--vegetarian {
+  background-color: #51cf66;
+}
+.tag--vegan {
+  background-color: #94d82d;
+}
+.tag--paleo {
+  background-color: #ffd43b;
+}
+
 .meal-title {
   font-size: 2.4rem;
   color: #333;
@@ -229,8 +274,42 @@
 
 .meal-attribute {
   font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.meal-icon {
+  height: 2.4rem;
+  width: 2.4rem;
+  color: #e67e22;
 }
 
 .meal-img {
   width: 100%;
+}
+
+.all-recipes {
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.list-item {
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.list-icon {
+  width: 3rem;
+  height: 3rem;
+  color: #e67e22;
 }
