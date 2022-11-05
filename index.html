@@ -3,6 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- Always include this line of code!!! -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link rel="preconnect" href="https://fonts.gstatic.com" />
@@ -11,26 +13,27 @@
       rel="stylesheet"
     />
 
-    <link rel="stylesheet" href="./css/general.css" />
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
 
     <script
       type="module"
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
     ></script>
     <script
-      nomodule
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+      nomodule=""
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
     ></script>
 
     <title>Omnifood</title>
   </head>
   <body>
     <header class="header">
-      <!-- We need header on every page i.e sticky so we don't add to header into main -->
       <a href="#">
-        <img class="logo" src="./img/omnifood-logo.png" alt="Omnifood logo" />
+        <img class="logo" alt="Omnifood logo" src="img/omnifood-logo.png" />
       </a>
+
       <nav class="main-nav">
         <ul class="main-nav-list">
           <li><a class="main-nav-link" href="#">How it works</a></li>
@@ -40,13 +43,19 @@
           <li><a class="main-nav-link nav-cta" href="#">Try for free</a></li>
         </ul>
       </nav>
+
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
     </header>
+
     <main>
       <section class="section-hero">
         <div class="hero">
           <div class="hero-text-box">
             <h1 class="heading-primary">
-              A healthy meal delivered to your door, every single day.
+              A healthy meal delivered to your door, every single day
             </h1>
             <p class="hero-description">
               The smart 365-days-per-year food subscription that will make you
@@ -57,33 +66,14 @@
               >Start eating well</a
             >
             <a href="#" class="btn btn--outline">Learn more &darr;</a>
-
-            <div class="deilvered-meals">
+            <div class="delivered-meals">
               <div class="delivered-imgs">
-                <img
-                  src="./img/customers/customer-1.jpg"
-                  alt="Customer photo"
-                />
-                <img
-                  src="./img/customers/customer-2.jpg"
-                  alt="Customer photo"
-                />
-                <img
-                  src="./img/customers/customer-3.jpg"
-                  alt="Customer photo"
-                />
-                <img
-                  src="./img/customers/customer-4.jpg"
-                  alt="Customer photo"
-                />
-                <img
-                  src="./img/customers/customer-5.jpg"
-                  alt="Customer photo"
-                />
-                <img
-                  src="./img/customers/customer-6.jpg"
-                  alt="Customer photo"
-                />
+                <img src="img/customers/customer-1.jpg" alt="Customer photo" />
+                <img src="img/customers/customer-2.jpg" alt="Customer photo" />
+                <img src="img/customers/customer-3.jpg" alt="Customer photo" />
+                <img src="img/customers/customer-4.jpg" alt="Customer photo" />
+                <img src="img/customers/customer-5.jpg" alt="Customer photo" />
+                <img src="img/customers/customer-6.jpg" alt="Customer photo" />
               </div>
               <p class="delivered-text">
                 <span>250,000+</span> meals delivered last year!
@@ -92,9 +82,9 @@
           </div>
           <div class="hero-img-box">
             <img
-              src="./img/hero.png "
+              src="img/hero.png"
               class="hero-img"
-              alt="Woman enjoying food, meal in storage container, and food bowls on a table"
+              alt="Woman enjoying food, meals in storage container, and food bowls on a table"
             />
           </div>
         </div>
@@ -104,28 +94,29 @@
         <div class="container">
           <h2 class="heading-featured-in">As featured in</h2>
           <div class="logos">
-            <img src="./img/logos/techcrunch.png" alt="techcrunch logo" />
+            <img src="img/logos/techcrunch.png" alt="Techcrunch logo" />
             <img
-              src="./img/logos/business-insider.png "
-              alt="business-insider logo"
+              src="img/logos/business-insider.png"
+              alt="Business Insider logo"
             />
             <img
-              src="./img/logos/the-new-york-times.png"
-              alt="the-new-york-times logo"
+              src="img/logos/the-new-york-times.png"
+              alt="The New York Times logo"
             />
-            <img src="./img/logos/forbes.png" alt="forbes " />
-            <img src="./img/logos/usa-today.png" alt="usa-today logo" />
+            <img src="img/logos/forbes.png" alt="Forbes logo" />
+            <img src="img/logos/usa-today.png" alt="USA Today logo" />
           </div>
         </div>
       </section>
 
       <section class="section-how">
         <div class="container">
-          <span class="subheading"> How it works </span>
+          <span class="subheading">How it works</span>
           <h2 class="heading-secondary">
             Your daily dose of health in 3 simple steps
           </h2>
         </div>
+
         <div class="container grid grid--2-cols grid--center-v">
           <!-- STEP 01 -->
           <div class="step-text-box">
@@ -140,20 +131,23 @@
               matter what diet you follow!
             </p>
           </div>
+
           <div class="step-img-box">
             <img
-              src="./img/app/app-screen-1.png"
+              src="img/app/app-screen-1.png"
               class="step-img"
-              alt="iPhone app preferences selection screen"
+              alt="iPhone app
+            preferences selection screen"
             />
           </div>
 
           <!-- STEP 02 -->
           <div class="step-img-box">
             <img
-              src="./img/app/app-screen-2.png"
+              src="img/app/app-screen-2.png"
               class="step-img"
-              alt="iPhone app preferences selection screen"
+              alt="iPhone app
+            meal approving plan screen"
             />
           </div>
           <div class="step-text-box">
@@ -178,9 +172,10 @@
           </div>
           <div class="step-img-box">
             <img
-              src="./img/app/app-screen-3.png"
+              src="img/app/app-screen-3.png"
               class="step-img"
-              alt="iPhone app preferences selection screen"
+              alt="iPhone app
+            delivery screen"
             />
           </div>
         </div>
@@ -464,7 +459,7 @@
         </div>
 
         <div class="container grid grid--2-cols margin-bottom-md">
-          <div class="princing-plan princing-plan--starter">
+          <div class="pricing-plan pricing-plan--starter">
             <header class="plan-header">
               <p class="plan-name">Starter</p>
               <p class="plan-price"><span>$</span>399</p>
@@ -492,7 +487,7 @@
             </div>
           </div>
 
-          <div class="princing-plan princing-plan--complete">
+          <div class="pricing-plan pricing-plan--complete">
             <header class="plan-header">
               <p class="plan-name">Complete</p>
               <p class="plan-price"><span>$</span>649</p>
@@ -600,9 +595,7 @@
                 <div>
                   <label for="select-where">Where did you hear from us?</label>
                   <select id="select-where" required>
-                    <option disabled selected value="">
-                      Please choose one option:
-                    </option>
+                    <option value="">Please choose one option:</option>
                     <option value="friends">Friends and family</option>
                     <option value="youtube">YouTube video</option>
                     <option value="podcast">Podcast</option>
@@ -656,6 +649,7 @@
             Copyright &copy; 2027 by Omnifood, Inc. All rights reserved.
           </p>
         </div>
+
         <div class="address-col">
           <p class="footer-heading">Contact us</p>
           <address class="contacts">
@@ -671,6 +665,7 @@
             </p>
           </address>
         </div>
+
         <nav class="nav-col">
           <p class="footer-heading">Account</p>
           <ul class="footer-nav">
