@@ -142,6 +142,11 @@
   border: 3px solid #fdf2e9;
 }
 
+/* Alternative way (remove margin-right from .delivered-imgs img) */
+/* .devlivered-imgs img:not(:last-child) {
+  margin-right: -1.6rem;
+} */
+
 .delivered-imgs img:last-child {
   margin: 0;
 }
