@@ -12,7 +12,10 @@ A Food Delivery AI Startup's **Fully Responsive** website, built using **HTML5, 
 [![JS](https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)](https://github.com/prakash-naikwadi)
 <br>
 
+## Output:
+
 ![](./screenshots/hero-section.jpg)
+![](./screenshots/call-to-action-section.jpg)
 
 ## 📌 My process
 
