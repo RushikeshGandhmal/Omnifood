@@ -11,11 +11,11 @@ A Food Delivery AI Startup's **Fully Responsive** website, built using **HTML5, 
 [![CSS](https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white)](https://github.com/prakash-naikwadi)&nbsp;
 [![JS](https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)](https://github.com/prakash-naikwadi)
 <br>
-<br>
 
+<a></a>  
 <br>
-![Screenshot](/screenshots/hero-section.jpg?raw=true "Hero Section Of Website")
-![Screenshot](/screenshots/call-to-action-section.jpg?raw=true "Call To Action Section") 
+![Screenshot](/Omnifood/screenshots/hero-section.jpg "Hero Section Of Website")
+![Screenshot](/Omnifood/screenshots/call-to-action-section.jpg "Call To Action Section")
 
 ## 📌 My process
 
