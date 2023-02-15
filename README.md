@@ -2,11 +2,8 @@
 
 A Food Delivery AI Startup's **Fully Responsive** website, built using **HTML5, CSS3, and JavaScript.**
 <br>
-<br>
 
 ## 📌 **Live Site URL:** <a href="https://omnifood-to-cook.netlify.app/" target="_blank">**Visit Now** 🚀</a>
-
-<br>
 
 ## 📌 Tech Stack
 
@@ -16,9 +13,6 @@ A Food Delivery AI Startup's **Fully Responsive** website, built using **HTML5, 
 <br>
 <br>
 
-## 📌 Overview
-
-**YouTube URL:** <a href="https://youtu.be/Xku3ypsSTIw" target="_blank">**Watch Now** 🚀</a>  
 <br>
 ![Screenshot](/screenshots/hero-section.jpg?raw=true "Hero Section Of Website")
 ![Screenshot](/screenshots/call-to-action-section.jpg?raw=true "Call To Action Section")
@@ -39,8 +33,8 @@ A Food Delivery AI Startup's **Fully Responsive** website, built using **HTML5, 
 
 ## 📬 Connect With Me
 
-- **LinkedIn** - [Prakash Naikwadi](https://www.linkedin.com/in/prakash-naikwadi/)
-- **Twitter** - [@PrakashNaikwad6](https://www.twitter.com/PrakashNaikwad6)
+- **LinkedIn** - [Prakash Naikwadi](https://www.linkedin.com/in/rushikesh-gandhmal/)
+- **Twitter** - [@PrakashNaikwad6](https://twitter.com/rushikesh1s)
 
 ## 📌 Acknowledgments
 
