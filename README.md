@@ -1,6 +1,6 @@
 ## ⭐ Omnifood-Never Cook Again ⭐
 
-A Food Delivery AI Startup's **Fully Responsive** website, built using **HTML5, CSS3, and JavaScript. **
+A Food Delivery AI Startup's **Fully Responsive** website, built using **HTML5, CSS3, and JavaScript.**
 <br>
 
 ## 📌 **Live Site URL:** <a href="https://omnifood-to-cook.netlify.app/" target="_blank">**Visit Now** 🚀</a>
