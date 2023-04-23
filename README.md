@@ -33,8 +33,8 @@ A Food Delivery AI Startup's **Fully Responsive** website, built using **HTML5, 
 
 ## 📬 Connect With Me
 
-- **LinkedIn** - [Prakash Naikwadi](https://www.linkedin.com/in/rushikesh-gandhmal/)
-- **Twitter** - [@PrakashNaikwad6](https://twitter.com/rushikesh1s)
+- **LinkedIn** - [Rushikesh Gandhmal](https://www.linkedin.com/in/rushikesh-gandhmal/)
+- **Twitter** - [@rushikesh1s](https://twitter.com/rushikesh1s)
 
 ## 📌 Acknowledgments
 
