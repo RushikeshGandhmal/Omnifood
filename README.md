@@ -29,7 +29,7 @@ A Food Delivery AI Startup's **Fully Responsive** website, built using **HTML5, 
 👉 Web design principles.  
 👉 How to optimize the website for production.  
 👉 How to design a website from scratch.  
-👉 Responsive Design (still Kevin Powell's Responsive Web Design course is the best)
+👉 Responsive Design.
 
 ## 📬 Connect With Me
 
